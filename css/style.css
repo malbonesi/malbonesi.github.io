@@ -457,6 +457,22 @@ img {
   height: auto;
 }
 
+.border-gray-400{
+  border-color: #cbd5e0;
+}
+
+.border-green-600{
+  border-color: #38a169;
+}
+
+.border-dotted{
+  border-style: dotted;
+}
+
+.border-b-2{
+  border-bottom-width: 2px;
+}
+
 .flex{
   display: flex;
 }
@@ -477,6 +493,11 @@ img {
   font-weight: 700;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -486,6 +507,10 @@ img {
   margin-bottom: 0.5rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -493,10 +518,6 @@ img {
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.text-left{
-  text-align: left;
 }
 
 .text-center{
@@ -515,12 +536,12 @@ img {
   font-size: 1.125rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
+.text-xl{
+  font-size: 1.25rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
+.text-2xl{
+  font-size: 1.5rem;
 }
 
 .italic{
