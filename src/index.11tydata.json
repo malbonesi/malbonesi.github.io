@@ -1,0 +1,35 @@
+{
+  "links": [
+    {
+      "name": "github",
+      "url": "https://github.com/malbonesi"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://linkedin.com/in/malbonesi"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SuperFrets",
+      "description": "Fretboard visualization tool",
+      "tags": ["preact", "firebase", "tachyons"],
+      "url": "https://superfrets.netlify.com",
+      "img": "superfrets.jpg"
+    },
+    {
+      "name": "One Second Challenge",
+      "description": "Guess-the-song game",
+      "tags": ["preact", "bootstrap", "youtube api"],
+      "url": "https://onesecondchallenge.netlify.com",
+      "img": "osc.jpg"
+    },
+    {
+      "name": "GeoPlay",
+      "description": "Geolocation-based audio app",
+      "tags": ["preact", "redux-bundler", "leaflet", "tachyons"],
+      "url": "https://geoplay.netlify.com",
+      "img": "plaze.jpg"
+    }
+  ]
+}

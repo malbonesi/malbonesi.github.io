@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+---
+<div class="text-center">
+  <h1 class="text-2xl mt-4 mb-2 text-green-600">MIKE ALBONESI</h1>
+  <p class="italic">Full-stack developer</p>
+  <p class="my-2">JavaScript React Redux Perl MySQL</p>
+</div>
+<div class="mb-8">
+  {% for link in links %}
+    <a class="border-dotted border-b-2 border-gray-400 hover:border-green-600" href={{ link.url }}>{{ link.name  }}</a>
+  {% endfor %}
+  <span>mikealbo[at]gmail</span>
+</div>
+<div class="w-xl px-4">
+  <h1 class="text-center text-xl font-bold">Projects</h1>
+  {% for project in projects %}
+    <div class="my-4">
+      <h1 class="text-lg font-bold">{{ project.name }}</h1>
+      <p>{{ project.description }}</p>
+      <a href={{ project.url }}>
+        <img class="mb-2" src={{ '/img/' + project.img  }}></img>
+      </a>
+      <p class="text-sm">{{ project.tags | join(", ") }}</p>
+    </div>
+  {% endfor %}
+</div>
